@@ -65,36 +65,35 @@ This loads both models and performs predictions on sample data.
 🛠️ Setup Instructions  
 1.Clone the repo  
     git clone https://github.com/<your-username>/fraud-detection-flask.git   
-    cd fraud-detection-flask  
+    cd fraud-detection-flask 
+    
 2.Install dependencies  
     pip install -r requirements.txt  
+    
 3.Run the app  
     python app.py  
+    
 4.Or deploy with Gunicorn  
-    gunicorn app:app  
+    gunicorn app:app 
+    
 5.Visit  
     http://localhost:5000/  
 
-🧠 Model Inputs
+🧠 Model Inputs  
 Model	Input Format	Example  
 Credit Model	Comma-separated float values	0.5, 1.2, 3.4, 0.1  
 UPI Model	Withdrawal, Deposit, Balance (numeric)	Withdrawal=100, Deposit=200, Balance=1500  
 
 Make sure .pkl model files are in the /models folder.
 
-🧪 Requirements
+🧪 Requirements  
 All dependencies are listed in requirements.txt, including:
 
 Flask
-
 NumPy
-
 Joblib
-
 Gunicorn
-
 Scikit-learn
-
 Others (TensorFlow, Keras, etc.)
 
 pip install -r requirements.txt
@@ -115,6 +114,16 @@ Vasavi
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute for educational or production purposes.
 
+## 📊 Results
+
+### Web Interface for Submitting Feature Inputs to Fraud Detection Model
+![Result 1](5.jpg)
+
+### Output Interface of the Credit Card Fraud Detection System Indicating a Fraudulent Transaction
+![Result 2](6.jpg)
+
+### Output Interface of the Credit Card Fraud Detection System Indicating a Fraudulent Non-Transaction
+![Result 3](7.jpg)
 
 
 
