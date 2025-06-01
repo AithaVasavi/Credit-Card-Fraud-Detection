@@ -73,11 +73,9 @@ This loads both models and performs predictions on sample data.
 3.Run the app  
     python app.py  
     
-4.Or deploy with Gunicorn  
+4.Deploy with Gunicorn  
     gunicorn app:app 
-    
-5.Visit  
-    http://localhost:5000/  
+
 
 🧠 Model Inputs  
 Model	Input Format	Example  
