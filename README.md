@@ -89,12 +89,12 @@ Make sure .pkl model files are in the /models folder.
 🧪 Requirements  
 All dependencies are listed in requirements.txt, including:
 
-Flask
-NumPy
-Joblib
-Gunicorn
-Scikit-learn
-Others (TensorFlow, Keras, etc.)
+Flask  
+NumPy  
+Joblib  
+Gunicorn  
+Scikit-learn  
+Others (TensorFlow, Keras, etc.)  
 
 pip install -r requirements.txt
 
