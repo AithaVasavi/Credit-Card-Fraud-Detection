@@ -63,17 +63,17 @@ python test_models.py
 This loads both models and performs predictions on sample data.
 
 🛠️ Setup Instructions  
-1.Clone the repo  
+1.Clone the repo:   
     git clone https://github.com/<your-username>/fraud-detection-flask.git   
     cd fraud-detection-flask 
     
-2.Install dependencies  
+2.Install dependencies:    
     pip install -r requirements.txt  
     
-3.Run the app  
+3.Run the app:  
     python app.py  
     
-4.Deploy with Gunicorn  
+4.Deploy with Gunicorn:    
     gunicorn app:app 
 
 
