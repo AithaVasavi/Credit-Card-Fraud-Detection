@@ -62,7 +62,7 @@ python test_models.py
 
 This loads both models and performs predictions on sample data.
 
-🛠️ Setup Instructions
+🛠️ Setup Instructions  
 1.Clone the repo  
     git clone https://github.com/<your-username>/fraud-detection-flask.git   
     cd fraud-detection-flask  
@@ -71,7 +71,7 @@ This loads both models and performs predictions on sample data.
 3.Run the app  
     python app.py  
 4.Or deploy with Gunicorn  
-    gunicorn app:app
+    gunicorn app:app  
 5.Visit  
     http://localhost:5000/  
 
@@ -99,19 +99,19 @@ Others (TensorFlow, Keras, etc.)
 
 pip install -r requirements.txt
 
-⚠️ Notes
+⚠️ Notes  
 Model files are expected to be in: ./models/credit_card_model.pkl and ./models/upi_model.pkl
 
 Frontend templates must be in the templates/ folder
 
 Uses render_template() for dynamic HTML pages
 
-🧑‍💻 Author
+🧑‍💻 Author  
 Vasavi
 
 📧 Email: vasavi9354@gmail.com
 
-📃 License
+📃 License  
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute for educational or production purposes.
 
